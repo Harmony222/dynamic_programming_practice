@@ -1,1 +1,1 @@
-# dynamic_programming_practice
+# Dynamic Programming Practice
