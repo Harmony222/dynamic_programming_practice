@@ -1,6 +1,8 @@
-def fib(n, fib_dict = {}):
+def fib(n, fib_dict = None):
     """ Takes a positive integer and returns the number at that position of
      the Fibonacci sequence using recursion with memoization. """
+    if fib_dict == None:
+        fib_dict = {}
     if n in fib_dict:
         return fib_dict[n]
     if n <= 1:

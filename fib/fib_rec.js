@@ -20,7 +20,7 @@ const fib = (n) => {
 
 
 // time complexity = O(n)
-// space complexity = O(1)???
+// space complexity = O(1)
 
 const fib_rec_improved = (counter, current = 1, prev = 1) => {
     if (counter === 0) return 0;
