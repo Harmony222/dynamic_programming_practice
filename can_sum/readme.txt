@@ -29,7 +29,7 @@ m = target sum
 n = array length
 
 Height of tree is at most m (worse case scenario subtract 1 from target sum at each level)
-Each node will have at most n children (length of array) -> n*n*n*n... = n^m
+Each node will have at most n children (length of array) -> n * n * n * n... = n^m
 
 
 can_sum(7, [2, 4]) -> false
