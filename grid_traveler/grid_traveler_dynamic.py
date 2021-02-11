@@ -1,6 +1,6 @@
 def grid_traveler(m, n, memo = None):
     # assign empty dictionary if first pass through
-    if memo == None:
+    if memo is None:
         memo = {}
     # create string from m and n with lower value first (grid of 2x3
     # has same number of moves as 3x2)
